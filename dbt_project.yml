@@ -38,3 +38,5 @@ models:
     marts:
       +materialized: table
       snowflake_warehouse: dbt_wh
+      
+      
