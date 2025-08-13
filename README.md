@@ -25,7 +25,7 @@ Start dbt project: dbt init and follow through the steps<br>
 Configure `dbt_project.yml` file (tells dbt where to look for your models), and `package.yml` for third-party dependencies<br>
 Write up your scripts for models and tests and run with `dbt run` or `dbt test`.<br>
 
-
+![severless dagster deployment](dagster.png)
 
 
 
