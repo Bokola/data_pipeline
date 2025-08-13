@@ -1,0 +1,24 @@
+data_pipeline:
+  outputs:
+    dev:
+      account: mx62574.europe-west4.gcp
+      database: dbt_db
+      password: Bowiti_29841161
+      role: dbt_role
+      schema: dbt_schema
+      threads: 10
+      type: snowflake
+      user: bokola
+      warehouse: dbt_wh
+  target: dev
+pypi_metrics:
+  outputs:
+    dev:
+      path: dev.duckdb
+      threads: 1
+      type: duckdb
+    prod:
+      path: prod.duckdb
+      threads: 4
+      type: duckdb
+  target: dev
