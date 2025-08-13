@@ -1,6 +1,0 @@
-locations:
-- build:
-    directory: ./data_pipeline
-  code_source:
-    module_name: data_pipeline.definitions
-  location_name: data_pipeline
