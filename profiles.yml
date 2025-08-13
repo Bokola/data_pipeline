@@ -1,9 +1,9 @@
 data_pipeline:
   outputs:
     dev:
-      account: mx62574.europe-west4.gcp
+      account: {env": "account"}
       database: dbt_db
-      password: Bowiti_29841161
+      password: {"env": "password"}
       role: dbt_role
       schema: dbt_schema
       threads: 10
