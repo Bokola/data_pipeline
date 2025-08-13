@@ -15,6 +15,8 @@ env:
   PYTHON_VERSION: '3.10'
   DAGSTER_CLOUD_FILE: 'dagster_cloud.yaml'
   DAGSTER_PROJECT_NAME: "data_pipeline"
+  account: ${{ secrets.acount}}
+  password: ${{ secrets.password}}
 
 jobs:
   dagster_cloud_default_deploy:
