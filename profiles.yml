@@ -1,9 +1,9 @@
 data_pipeline:
   outputs:
     dev:
-      "account": {env": "account"}
+      account: "{{ env_var('account')}}"
       database: dbt_db
-      "password": {"env": "password"}
+      password: "{{ env_var('password')}}"
       role: dbt_role
       schema: dbt_schema
       threads: 10
