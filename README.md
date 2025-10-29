@@ -1,4 +1,4 @@
-# ELT pipleine with snowflake, dbt & airflow
+# ELT pipeline with snowflake, dbt & airflow
 
 This is an ELT pipeline built with <br>
     - dbt: transformation
